@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    background-image: linear-gradient(
+      to right,
+      rgba(32, 49, 208, 0.3),
+      rgb(239, 232, 204)
+    );
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+  }
+  
+  #age-form {
+    height: 70px;
+  }
+  
+  section {
+    margin-left: 40px;
+  }
+  
+  #all {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #jake {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #amy {
+    background-color: rgb(255, 0, 43);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #rosa {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #charles {
+    background-color: rgb(216, 141, 0);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #age-form > button {
+      background-color:yellow;
+      border-radius: 10px;
+      cursor: pointer;
+      height: 30px;
+  }
+  
+  #create-form > button {
+      background-color: rgb(222, 255, 188);
+      border-radius: 10px;
+      cursor: pointer;
+      height: 30px;
+  }
+  
